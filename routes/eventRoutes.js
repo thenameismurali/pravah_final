@@ -1,6 +1,6 @@
 import express from "express";
 import Event from "../models/Event.js";
-import { protect, adminOnly } from "../middleware/authmiddleware.js";
+import { protect, adminOnly } from "../middleware/authMiddleware.js";
 
 /* CREATE EVENT → ADMIN ONLY */
 
